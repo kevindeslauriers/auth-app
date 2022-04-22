@@ -39,11 +39,7 @@ export default {
   methods: {
     login() {
       console.log(this.email, this.password);
-      localStorage.setItem("username", "userId");
-      console.log(sessionStorage.getItem("username"));
-    },
-    mounted() {
-      sessionStorage.setItem("username", "user123");
+      sessionStorage.setItem("username", "userId");
       console.log(sessionStorage.getItem("username"));
     },
   },
